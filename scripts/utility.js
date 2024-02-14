@@ -2,7 +2,7 @@
 //     const element = document.getElementById(elementId);
 //     console.log(element,elementId);
 //     element.classList.add('hidden');
-// }
+// }                                                         function no 2
 
 // function showElementById(elementId){
 //     const element = document.getElementById(elementId);
@@ -24,9 +24,6 @@ function getRandomAlphabet(){
     // console.log(index,alphabet);
     return alphabet;
 }
-
-
-
 
 // add background color
 
