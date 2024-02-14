@@ -1,10 +1,12 @@
 // function hideElementById(elementId){
 //     const element = document.getElementById(elementId);
-//     element.classlist.add('hidden');
+//     console.log(element,elementId);
+//     element.classList.add('hidden');
 // }
+
 // function showElementById(elementId){
 //     const element = document.getElementById(elementId);
-//     element.classlist.remove('hidden');
+//     element.classList.remove('hidden');
 // }
 
 
