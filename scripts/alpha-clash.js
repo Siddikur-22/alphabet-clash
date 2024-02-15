@@ -32,7 +32,7 @@ function handleKeyboardKeyUpEvent(event){
     console.log('You got a point!');
 
     const currentScore = getTextElementValueById('current-score');
-    const updatedScore = currentScore +1;
+    const updatedScore = currentScore + 1;
     setTextElementValueById('current-score',updatedScore);
 
 
@@ -61,8 +61,9 @@ function handleKeyboardKeyUpEvent(event){
  else{
 
   console.log('Dur mea....write key daw');
-  const currentLife = getTextElementValueById('current-score');
-  const updatedLife = currentLife -1;
+  const currentLife = getTextElementValueById('current-life');
+  console.log(currentLife);
+  const updatedLife = currentLife - 1;
 
   setTextElementValueById('current-life',updatedLife);
 
